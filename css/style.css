@@ -160,12 +160,30 @@ a
 	flex-basis: 160px;
 }
 
+#login #login-dialog
+{
+	position: absolute;
+	width: 300px;
+	transition: height 0.3s;
+	background: #2a333e;
+	background: linear-gradient(#2a333e, #434e5c);
+	border-radius: 0px 0px 10px 10px;
+	top: 60px;
+	left: -70px;
+}
+
+#login #reset
+{
+	display: none;
+}
+
 #login a
 {
 	flex-basis: 100%;
 	align-self: stretch;
 	text-align: center;
 	line-height: 60px;
+	font-size: 13px;
 	color: rgba(245, 245, 245, 0.5);
 	font-weight: bold;
 	text-shadow: 2px 2px 4px #222;
@@ -174,6 +192,41 @@ a
 #login a:hover
 {
 	color: rgba(245, 245, 245, 0.9);
+}
+
+#login #second
+{
+	display: none;
+}
+
+#login #first:target
+{
+	display: none;
+}
+
+#login #first:target ~ #second
+{
+	display: inline;
+}
+
+#login #first:target + #second + #login-dialog
+{
+	height: 200px;
+}
+
+#login #reset:target ~ #second
+{
+	display: none;
+}
+
+#login #reset:target ~ #login-dialog
+{
+	height: 0px;
+}
+
+#login #reset:target ~ #first
+{
+	display: inline;
 }
 
 #login:hover .underline
