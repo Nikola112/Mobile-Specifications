@@ -80,12 +80,30 @@
 					<a href="#reset" id="second">Sign In or Sign Up</a>
 
 					<div id="login-dialog">
-
+						<form action="login.php" method="POST" name="login-form" id="login-form">
+							<label for="email">Email:</label>
+							<input type="email" placeholder="someone@something.com" id="email" /></br>
+							<label for="passowrd">Passowrd:</label>
+							<input type="passowrd" id="password" /></br>
+							<input type="checkbox" name="remeber-me" id="remeber-me" />
+							<label for="remeber-me">Remeber me</label></br>
+							<input type="button" value="Sign up" />
+							<input type="submit" value="Sign in" />
+						</form>
 					</div>
 				</div>
 
 				<div id="search">
+					<span id="reset-search"></span>
+
+					<a href="#search" id="first-search"></a>
+					<a href="#reset-search" id="second-search"></a>
+
 					<span class="fa fa-search" aria-hidden="true"></span>
+
+					<div id="search-bar">
+						
+					</div>
 				</div>
 
 				<div class="cleaner">
