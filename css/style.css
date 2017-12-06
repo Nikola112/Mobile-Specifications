@@ -350,8 +350,8 @@ a
 #footer .wrapper
 {
 	width: 1160px;
-	padding: 30px 20px;
-	height: 300px;
+	padding: 20px 20px;
+	height: 320px;
 }
 
 #footer h1
@@ -372,6 +372,7 @@ a
 
 #footer-left
 {
+	margin-top: 20px;
 	width: 290px;
 	height: 200px;
 	float: left;
@@ -379,15 +380,23 @@ a
 
 #footer-right
 {
+	margin-top: 20px;
 	width: 870px;
 	height: 200px;
 	float: left;
+	display: flex;
 }
 
 #footer-right-first
 {
 	margin-left: 40px;
 	width: 250px;
+	height: 200px;
+}
+
+#footer-right-second
+{
+	width: 240px;
 	height: 200px;
 }
 
@@ -471,4 +480,48 @@ a
 #footer-left-lower span[class*="google"]:hover
 {
 	color: #d85040;
+}
+
+#footer-right-third
+{
+	width: 340px;
+	height: 200px;
+}
+
+#about-me
+{
+	width: 370px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#about-me span
+{
+	display: block;
+	color: rgba(245, 245, 245, 0.5);
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#about-me .value
+{
+	color: rgba(0, 180, 255, 0.75);
+}
+
+#about-me a
+{
+	display: block;
+	margin-top: 20px;
+	color: rgba(245, 245, 245, 0.5);
+	font-size: 16px;
+	font-weight: 600;
+	transition: font-size 0.1s ease-out, color 0.1s ease-out;
+}
+
+#about-me a:hover
+{
+	display: block;
+	color: rgba(0, 180, 255, 0.75);
+	font-size: 20px;
+	transition: font-size 0.1s ease-out, color 0.1s ease-out;
 }
