@@ -385,6 +385,8 @@ a
 	height: 200px;
 	float: left;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
 #footer-right-first
