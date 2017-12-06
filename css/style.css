@@ -384,20 +384,27 @@ a
 	float: left;
 }
 
+#footer-right-first
+{
+	margin-left: 40px;
+	width: 250px;
+	height: 200px;
+}
+
 #footer-left-upper
 {
 	width: 290px;
 	height: 120px;
 }
 
-#footer-left-upper ul
+.footer-menu
 {
 	list-style-type: none;
 	margin-left: 10px;
 	margin-top: 5px;
 }
 
-#footer-left-upper a
+.footer-menu a
 {
 	color: rgba(245, 245, 245, 0.5);
 	font-size: 16px;
@@ -405,7 +412,7 @@ a
 	transition: font-size 0.1s ease-out, color 0.1s ease-out;
 }
 
-#footer-left-upper a:hover
+.footer-menu a:hover
 {
 	color: rgba(0, 180, 255, 0.75);
 	font-size: 19px;
