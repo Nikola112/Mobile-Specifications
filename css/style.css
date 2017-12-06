@@ -523,5 +523,4 @@ a
 	display: block;
 	color: rgba(0, 180, 255, 0.75);
 	font-size: 20px;
-	transition: font-size 0.1s ease-out, color 0.1s ease-out;
 }
