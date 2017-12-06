@@ -209,46 +209,6 @@ a
 	font-weight: bold;
 }
 
-#login #second
-{
-	display: none;
-}
-
-#login #first:target
-{
-	display: none;
-}
-
-#login #first:target ~ #second
-{
-	display: inline;
-}
-
-#login #first:target ~ #login-dialog
-{
-	height: 200px;
-}
-
-#login #first:target ~ #login-dialog form
-{
-	display: block;
-}
-
-#login #reset:target ~ #second
-{
-	display: none;
-}
-
-#login #reset:target ~ #login-dialog
-{
-	height: 0px;
-}
-
-#login #reset:target ~ #first
-{
-	display: inline;
-}
-
 #login:hover .underline
 {
 	border-bottom: 3px solid rgba(0, 191, 255, 1);
@@ -292,6 +252,26 @@ a
 	left: 0px;
 }
 
+#search form
+{
+	display: none;
+	opacity: 0.0;
+	transition: opacity 0.3s;
+	width: 100%;
+	height: 100%
+}
+
+#search input
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border: 2px;
+	border-radius: 3px;
+	margin: 5px;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+}
+
 #search-bar
 {
 	width: 0px;
@@ -322,6 +302,13 @@ a
 #search:target #search-bar
 {
 	width: 240px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+#search:target form
+{
+	display: block;
+	opacity: 1.0;
 }
 
 #search:target #second-search
