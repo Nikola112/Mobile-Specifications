@@ -365,7 +365,8 @@ a
 	color: rgba(0, 180, 255, 0.75);
 }
 
-#footer span {
+#footer span 
+{
     font-size: 60px;
     color: rgba(0, 180, 255, 0.75);
 }
@@ -387,6 +388,14 @@ a
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+}
+
+#footer-right span
+{
+	display: block;
+	color: rgba(245, 245, 245, 0.5);
+	font-size: 16px;
+	font-weight: 600;
 }
 
 #footer-right-first
@@ -495,14 +504,6 @@ a
 	width: 370px;
 	margin-left: 10px;
 	margin-top: 5px;
-}
-
-#about-me span
-{
-	display: block;
-	color: rgba(245, 245, 245, 0.5);
-	font-size: 16px;
-	font-weight: 600;
 }
 
 #about-me .value
