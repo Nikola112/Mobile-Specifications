@@ -338,6 +338,14 @@ a
 	background-color: #14191e;
 }
 
+#content
+{
+	width: calc(100% - 30px);
+	height: calc(100% - 30px);
+	margin: 15px;
+	display: inline-block;
+}
+
 /*********** Footer ***********/
 
 #footer
