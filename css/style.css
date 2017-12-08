@@ -405,6 +405,87 @@ a
 	width: 40px;
 }
 
+#login-form
+{
+	width: 579px;
+	border-right: 1px solid rgba(245, 245, 245, 0.5);
+	height: 690px;
+	float: left;
+}
+
+#signup-form
+{
+	width: 580px;
+	margin-left: 5px;
+	height: 690px;
+	float: left;
+}
+
+#login-form form:first-child
+{
+	margin-top: 200px;
+}
+
+#signup-form form:first-child
+{
+	margin-top: 150px;
+}
+
+#login-form label, #signup-form label
+{
+	display: block;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#login-form label span, #signup-form label span
+{
+	text-align: center;
+	display: block;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+}
+
+#login-form label input, #signup-form label input
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin: 0px 20px;
+	outline: none;
+	border-radius: 20px;
+	border: 0px none;
+	height: 32px;
+	width: 250px;
+}
+
+#login-form input[type="submit"], #signup-form input[type="submit"]
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	background: rgba(0, 180, 255, 0.75);
+	color: rgba(245, 245, 245, 0.8);
+	display: block;
+	margin-top: 10px;
+	margin-left: 215px;
+	width: 200px;
+	height: 32px;
+	width: 250px;
+	border-radius: 20px;
+	border: 0px none;
+	outline: none;
+	-webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+#login-form input[type="submit"]:hover, #signup-form input[type="submit"]:hover
+{
+	background: rgb(0, 89, 255);
+	cursor: pointer;
+}
+
 #my-img
 {
 	float: left;
