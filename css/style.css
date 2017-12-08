@@ -471,6 +471,12 @@ a
 	margin-bottom: 10px;
 	background: #1d232b;
 	border-radius: 5px;
+	transition: background-color 0.3s ease-in;
+}
+
+.phone-item:hover
+{
+	background-color: #262e36;
 }
 
 #first-phone-item
@@ -539,7 +545,9 @@ a
 
 .right-item-side h2
 {
+	color: rgba(245, 245, 245, 0.5);
 	font-size: 1.45em;
+	transition: color 0.3s ease-in;
 }
 
 .item-desc
@@ -555,7 +563,10 @@ a
 	font-weight: bold;
 }
 
-
+.phone-item:hover h2
+{
+	color: #fcfcfc;
+}
 
 #navigation form
 {
