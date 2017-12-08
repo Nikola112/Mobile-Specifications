@@ -530,6 +530,7 @@ a
 	text-align: center;
 	font-size: 32px;
 	line-height: 40px;
+	-webkit-transition: font-size 0.3s cubic-bezier(.48,.02,.02,2.0), color 0.3s;
 	transition: font-size 0.3s cubic-bezier(.48,.02,.02,2.0), color 0.3s;
 }
 
@@ -547,6 +548,7 @@ a
 	margin-bottom: 10px;
 	background: #1d232b;
 	border-radius: 5px;
+	-webkit-transition: background-color 0.3s ease-in;
 	transition: background-color 0.3s ease-in;
 }
 
@@ -593,6 +595,7 @@ a
 	width: 50px;
 	height: 220px;
 	border-radius: 25px;
+	-webkit-transition: background-color 0.3s;
 	transition: background-color 0.3s;
 }
 
@@ -603,6 +606,7 @@ a
 	font-size: 40px;
 	text-align: center;
 	line-height: 220px;
+	-webkit-transition: color 0.3s, font-size 0.3s;
 	transition: color 0.3s, font-size 0.3s;
 }
 
@@ -623,6 +627,7 @@ a
 {
 	color: rgba(245, 245, 245, 0.5);
 	font-size: 1.45em;
+	-webkit-transition: color 0.3s ease-in;
 	transition: color 0.3s ease-in;
 }
 
