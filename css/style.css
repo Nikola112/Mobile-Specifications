@@ -399,7 +399,7 @@ a
 
 #navigation
 {
-	border: 1px solid rgba(245, 245, 245, 0.5);
+	border: 1px solid rgba(245, 245, 245, 0.1);
 	border-radius: 5px;
 	height: 100%;
 	width: 300px;
@@ -413,7 +413,7 @@ a
 	width: 848;
 	height: 100%;
 	margin-left: 18px;
-	border: 1px solid rgba(245, 245, 245, 0.5);
+	border: 1px solid rgba(245, 245, 245, 0.1);
 	border-radius: 5px;
 }
 
@@ -454,7 +454,7 @@ a
 	text-align: center;
 	font-size: 32px;
 	line-height: 40px;
-	transition: font-size 0.3s cubic-bezier(.48,.02,.02,2.3), color 0.3s;
+	transition: font-size 0.3s cubic-bezier(.48,.02,.02,2.0), color 0.3s;
 }
 
 #rss-featured:hover span
@@ -549,9 +549,13 @@ a
 
 .item-price
 {
+	display: inline-block;
+	margin-top: 5px;
 	font-size: 18px;
 	font-weight: bold;
 }
+
+
 
 #navigation form
 {
