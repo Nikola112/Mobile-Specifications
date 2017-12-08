@@ -503,7 +503,7 @@ a
 	position: relative;
 }
 
-.go-to-phone
+.right-item-side .go-to-phone
 {
 	position: absolute;
 	top: 0px;
@@ -514,7 +514,7 @@ a
 	transition: background-color 0.3s;
 }
 
-.go-to-phone span
+.right-item-side .go-to-phone span
 {
 	width: 100%;
 	height: 100%;
@@ -524,13 +524,13 @@ a
 	transition: color 0.3s, font-size 0.3s;
 }
 
-.go-to-phone:hover
+.right-item-side .go-to-phone:hover
 {
 	background-color: rgba(255, 255, 255, 0.05);
 	cursor: pointer;
 }
 
-.go-to-phone:hover span
+.right-item-side .go-to-phone:hover span
 {
 	color: rgba(0, 180, 255, 0.75);
 	font-size: 48px;
