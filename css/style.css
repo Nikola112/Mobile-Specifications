@@ -400,10 +400,44 @@ a
 #navigation
 {
 	border: 1px solid rgba(245, 245, 245, 0.5);
-	border-radius: 10px;
+	border-radius: 5px;
 	height: 100%;
 	width: 300px;
 	position: relative;
+	float: left;
+}
+
+#right-side-main
+{
+	float:left;
+	width: 848;
+	height: 100%;
+	margin-left: 18px;
+	border: 1px solid rgba(245, 245, 245, 0.5);
+	border-radius: 5px;
+}
+
+#featured-items
+{
+	height: 40px;
+	width: calc(100% - 40px);
+	float: left;
+}
+
+#featured-items h1
+{
+	text-align: center;
+	color: rgba(0, 180, 255, 0.75);
+}
+
+#rss-featured
+{
+	float: right;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	width: 40px;
+	color: #ff9900;
 }
 
 #navigation form
@@ -455,8 +489,8 @@ a
 	left: 0px;
 	top: 0px;
 	opacity: 0;
-	-webkit-transition: transform 0.3s cubic-bezier(.53,.01,.58,2);
-	transition: transform 0.3s cubic-bezier(.53,.01,.58,2);
+	-webkit-transition: transform 0.3s cubic-bezier(.53,.01,.29,1.99);
+	transition: transform 0.3s cubic-bezier(.53,.01,.29,1.99);
 }
 
 .stylized-checkbox .fa-square-o
@@ -464,8 +498,8 @@ a
 	-moz-transform: scale(1.0);
 	-webkit-transform: scale(1.0);
 	transform: scale(1.0);
-	-webkit-transition: transform 0.3s cubic-bezier(.53,.01,.58,2);
-	transition: transform 0.3s cubic-bezier(.53,.01,.58,2);
+	-webkit-transition: transform 0.3s cubic-bezier(.53,.01,.29,1.99);
+	transition: transform 0.3s cubic-bezier(.53,.01,.29,1.99);
 }
 
 .stylized-checkbox input[type="checkbox"]:checked ~ .fa-check-square
