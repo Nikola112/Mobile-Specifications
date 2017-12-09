@@ -429,6 +429,19 @@ a
 #signup-form form:first-child
 {
 	margin-top: 150px;
+	display: block;
+}
+
+#login-form form:first-child h1
+{
+	margin-left: 100px;
+	display: block;
+}
+
+#signup-form form:first-child h1
+{
+	margin-left: 90px;
+	display: block;
 }
 
 #login-form label, #signup-form label
